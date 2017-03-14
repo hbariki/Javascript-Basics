@@ -2,9 +2,11 @@
  * Created by nmekala on 3/14/17.
  */
 
-// Write an expression that uses at least 3 different arithmetic operators.
+// Print fahreneit equivalent of 12°C
 
-   //  The expression should equal 42.
+// Converting temperatures
 
-// This expression equals to 42
-console.log(10*10/2-8);
+var celsius = 12;
+var fahrenheit = celsius*1.8+32 ;
+
+console.log(fahrenheit);
