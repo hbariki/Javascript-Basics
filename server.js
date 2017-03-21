@@ -31,4 +31,18 @@ console.log(quote[6]);
 
 "The man whispered, \"please speak to me.\""
 
+//
 //  Returns: "The man whispered, "please speak to me.""
+
+// Function example it returns the reverse string
+
+function reverseString (reverseMe){
+ var reversed = "";
+ for (var i = reverseString.length-1; i >= 0;i--){
+  reversed += reverseMe[i];
+ }
+ return reversed;
+
+}
+console.log(reverseString('Julia'));
+
